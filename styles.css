@@ -1,0 +1,70 @@
+body{
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Roboto Mono", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    max-width: 96px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-size: 1.0em;
+    font-weight: 100;
+    color: white;
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    padding: 8px;
+    width: 300px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    animation: bounce 1.5s ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    80% {
+        transform: translateY(-5px);
+    }
+}
+
